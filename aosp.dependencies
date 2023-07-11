@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "kernel_xiaomi_umi",
+    "target_path": "kernel/xiaomi/umi"
+  }
+]
