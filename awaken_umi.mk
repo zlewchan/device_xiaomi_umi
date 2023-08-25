@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The awakenOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/xiaomi/umi/device.mk)
 
-# Inherit from the Lineage configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from the awaken configuration.
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_umi
+PRODUCT_NAME := awaken_umi
 PRODUCT_DEVICE := umi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10

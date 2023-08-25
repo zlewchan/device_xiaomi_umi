@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The awakenOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_umi.mk
+    $(LOCAL_DIR)/awaken_umi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_umi-eng \
-    lineage_umi-user \
-    lineage_umi-userdebug
+    awaken_umi-eng \
+    awaken_umi-user \
+    awaken_umi-userdebug
